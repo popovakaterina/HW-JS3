@@ -20,7 +20,7 @@ Task1But.addEventListener("click", function() {
 
 function result(salary) {
     if (isNaN(salary)) { 
-        alert ("Неверный тип данных!");
+        alert ("Неверный тип данных! ");
     }
     else {
         let TotalSelare = salary - salary*0.13;
